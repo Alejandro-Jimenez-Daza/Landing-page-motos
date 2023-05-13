@@ -1,0 +1,53 @@
+body #card{
+  display:flex;
+  justify-content: center;
+}
+
+body #btn{
+  display: flex;
+  justify-content: center;
+}
+
+body #ejecutivos{
+  width: 90%;
+  height: 30%;
+}
+
+body #centro{
+  width: 90%;
+  height: 39%;
+ }
+
+ body #logo{
+  width: 8%;
+  height: 8%;
+ }
+
+ .plogo{
+  padding-bottom: 45px;
+ }
+
+ ul #links-yamaha{
+  text-decoration: none;
+ }
+
+
+#ducati{
+  text-align: center;
+ }
+
+#ducati-logo{
+  display:block;
+  margin:auto;
+  width: 15%;
+  height: 15%;
+}
+
+#clasico{
+  text-align: center;
+}
+
+video{
+  display: block;
+  margin: auto;
+}

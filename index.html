@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-youtube px-2 text-white" viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+              </svg>
+
+          <a class="navbar-brand" href="https://www.youtube.com/watch?v=0F1LEbrVKAc&t=1s" target="_blank">Canal de youtube</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">En mejora</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- TITULO -->
+    <h1 class="text-center py-3">WELCOME TO MY FOUR PAGE IN BOOTSTRAP 5 </h1>
+
+    <center><img src="img/icon.png" alt="boostrap" id="logo" class="plogo"></center>
+    <hr>
+
+
+    <!-- OFFCANVAS -->
+    
+    <div class="py-4" id="btn">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Acerca de nosotros</button>
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">¿Quiénes somos?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+        <div class="offcanvas-body">
+            <p class="py-2">En MotoMaximum buscamos progresxar y satisfacer, nos importa acompañar millones de personas a recorrer muchísimos kilómetros, pero también dedicarnos a desarrollar experiencias únicas, Ofreciendo un servicio de alto calibre.</p>
+            <img src="img/eje.jpg" alt="reunión" id="ejecutivos" class="px-3">
+            <img src="img/centro.jpg" alt="" id="centro" class="py-3 px-3">
+        </div>
+        </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="container"> 
+        <div class="row row-md-2">
+
+            <div class="col" id="card">
+                <div class="card " style="width: 22rem;">
+                    <img src="img/mt.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">YAMAHA MT09</h5>
+                    <p class="card-text">La Yamaha MT-09 Tracer (FJ-09 en los Estados Unidos) es una motocicleta tipo sports-tourer introducida el 2015. Tiene un carenado parcial, un tanque de gasolina más grande, frenos ABS, y control de aceleración electrónica tipo "D-Mode" . ​ 
+                        El tablero es exactamente el mismo de la Yamaha XT1200Z Super Ténéré.</p>
+                    <center><a href="https://www.incolmotos-yamaha.com.co/vehiculo/mt09a-2/2317/" class="btn btn-success" target="_blank" id="ver">VER</a></center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" id="card">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/wolverine.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">WOLVERINE RMAX4</h5>
+                    <p class="card-text">Con un manejo del terreno impresionante, viene la potencia suave de nuestro nuevo motor de 999 c. c. y el control de modo D con botón con 3 posiciones de conducción: Sport, Trail y Crawl. Añade pintura de Edición Especial, un cabrestante Warn instalado de fábrica, llantas del mismo color,
+                        neumáticos agresivos Maxxis.</p>
+                    <center><a href="https://www.incolmotos-yamaha.com.co/vehiculo/wolverine-rmax-4/19440/" class="btn btn-success" target="_blank" id="ver">VER</a></center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" id="card">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/tenere.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">SUPER TENERÉ 1200ZE</h5>
+                    <p class="card-text">La Super Ténéré es la más aventurera dentro del catálogo de motos trail de Yamaha, de ahí que los japoneses la hayan llamado como su mítica trail de los 90 que era el sueño de todos los que querían emular a los pilotos del Dakar. Monta un motor de dos 
+                        cilindros en línea de 1200 que tiene una potencia 112CV a 7.250rpm.</p>
+                    <center><a href="https://www.incolmotos-yamaha.com.co/vehiculo/xt1200ze/11986/" class="btn btn-success" target="_blank" id="ver">VER</a></center>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+
+
+    <!-- carrusel -->
+    <div class="container">
+      <div class="py-5">
+          <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="img/mejor3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="img/mejor2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="img/mejor1.jpg" class="d-block w-100" alt="...">
+              </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+      </div>
+    </div>
+
+      <hr>
+
+
+<!-- ALIADOS DUCATI -->
+    <div class="container" id="ducati">
+      <h4>GRANDES ALIADOS DE:</h4>
+    </div>
+    <img src="img/ducati.png" alt="ducati_logo" id="ducati-logo" class="py-3">
+    <hr>
+    <div class="container py-2">
+      <div class="container">
+        <p>Las motos más fascinantes del mundo son el fruto del empeño dedicado en las competiciones y la expresión más pura de la técnica refinada, del diseño inconfundible y de la pasión por la moto. 
+          Ducati es un testigo orgulloso del Made in Italy, la esencia del estilo italiano se manifiesta en las líneas de todas sus motos. Formas sinuosas, estilizadas y seductoras, para un estilo atemporal 
+          que se convierte en un punto de referencia inalcanzable. Ducati motos representan, en más de 60 países de todo el mundo, el sueño de los motociclistas más apasionados. 
+        </p>
+      </div>
+    </div>
+
+
+    <!-- TERRENOS -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/nieve.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nieve</h5>
+            <p class="card-text">Soportando conidiciones climáticas con excelente desempeño por debajo de -70° Centígrados.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 2 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/atacama.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Desierto</h5>
+            <p class="card-text">Por su contraparte, con neumáticos resistentes y una excelente refrigeración para los climas más áridos y calurosos.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 2 days ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/2017-05-31-10-23-37.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pavimento</h5>
+            <p class="card-text">Sin faltar para la ciudad y pasear por las zonas urbanas.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 hours ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <h4 class="py-5" id="clasico">Desde lo más clasico y exlusivo, hasta lo último en rendimiento y calidad.</h4>
+
+  <div class="container">
+  <div class="card-group">
+    <div class="card">
+      <img src="img/ducaticlassic.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <center><h5 class="card-title">DUCATI SPORT CLASSIC 1000 BIPOSTO</h5></center>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/ducati2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <center><h5 class="card-title">DUCATI IN MOTO GP</h5></center>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/hypermotard.jpg " class="card-img-top" alt="...">
+      <div class="card-body">
+        <center><h5 class="card-title">DUCATI HYPERMOTARD</h5></center>
+      </div>
+    </div>
+  </div>
+</div>
+
+<video class="py-5" src="mp4/ducati1000.mp4" width="850" height="600" controls autoplay></video>
+
+
+    
+</body>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Mándanos tu correo para recibir las últimas noticias</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Correo</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Suscribirme
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Estamos constantemente trabajando en mejorar nuestro servicio web, recuerdas que también puedes contactarnos vía llamada telefónica según tu país.
+          Estamos ubicados en todos los continentes y con la misión de hacer más fácil y cómodos tus caminos.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="links">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <center><div class="col-lg-3 col-md-6 mb-4 mb-md-0 justify-content-center">
+            <h5 class="text-uppercase">Encuentranos en:</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.incolmotos-yamaha.com.co/" class="text-white text-center" target="_blank" id="links-yamaha">YAMAHA COLOMBIA</a>
+              </li>
+              <li>
+                <a href="https://yamaha-motor.com/" class="text-white" target="_blank" id="links-yamaha">YAMAHA USA</a>
+              </li>
+              <li>
+                <a href="https://www.yamaha-motor.eu/es/es/" class="text-white" target="_blank" id="links-yamaha">YAMAHA ESPAÑA</a>
+              </li>
+              <li>
+                <a href="https://www.yamaha-motor.co.jp/" class="text-white" target="_blank" id="links-yamaha">YAMAHA JAPÓN</a>
+              </li>
+            </ul>
+          </div></center>
+          <!--Grid column-->
+  
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MotoMaximum</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->   
+
+
+</html>
